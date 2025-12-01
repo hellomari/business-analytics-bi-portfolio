@@ -7,4 +7,4 @@ SELECT
     AVG(monto_colocado) AS ticket_promedio
 FROM colocaciones
 GROUP BY sucursal, producto
-ORDER BY ventas_totales DESC;
+ORDER BY ventas_totales DESC
